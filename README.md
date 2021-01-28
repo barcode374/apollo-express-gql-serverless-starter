@@ -1,4 +1,4 @@
-# apollo-express-gql-serverless-starter
+# Apollo Express GraphQL started for deploying on AWS lambda
 Apollo Express Server with graphQL, this is a starter for AWS lambda serverless.
 It uses the apollo-server-express instead of the apollo-server-lambda and serverless-http to create the lambda serverless function for the express server, which contains '/graphgql' route and a '/playground' route.
 
@@ -13,3 +13,7 @@ It uses the apollo-server-express instead of the apollo-server-lambda and server
 
 # To query GraphQL use
   - (http://localhost:5000/dev/graphql)
+  
+# Deploy using
+  - configure your aws-cli
+  - run 'serverless deploy' in your project
