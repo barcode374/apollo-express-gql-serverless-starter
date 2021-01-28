@@ -1,7 +1,6 @@
 # apollo-express-gql-serverless-starter
-Apollo Express Server with graphQL, starter for AWS lambda serverless 
-This uses the apollo-server-express instead of the apollo-server-lambda
-I'm using serverless-http to create the lambda serverless function for the express server, which contains '/graphgql' route and '/playground' route
+Apollo Express Server with graphQL, this is a starter for AWS lambda serverless.
+It uses the apollo-server-express instead of the apollo-server-lambda and serverless-http to create the lambda serverless function for the express server, which contains '/graphgql' route and a '/playground' route.
 
 # To start a new Project
 * Clone Repo
